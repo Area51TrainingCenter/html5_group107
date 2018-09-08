@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ejemplo Fomrulario</title>
+	</head>
+
+	<body>
+		<form action="gracias.html">
+		<label>Fecha</label>
+		<input type="text" value="08/09/2018" disabled><br>
+			<!--<label> Nombre:</label>-->
+			<input 	type="text" 
+					name="nombre" 
+					placeholder="Ingresa tu Nombre" 
+					required><br>
+
+			<label for="apellidos">Apellidos (* requerido):</label>
+			<input type="text" name="apellidos" required><br>
+
+			<label for="dni">Dni</label>
+			<input type="text" name="dni" required><br>
+
+			<label >Contrseña</label>
+			<input type="password"><br>
+			<label >Correo</label>
+			<input type="text" name="Correo" value="@gmail.com" required><br>
+			<label>telf:</label>
+			<input type="text" name="telf" required><br>
+			<label for="cursos">Cursos a escoger</label>
+			<br>
+			<label>
+				<input type="checkbox" checked name="cursos">
+				HTML
+			</label>
+			<br>
+			<label><input type="checkbox"  name="cursos"> CSS</label><br>
+			<label><input type="checkbox" name="cursos"> JS</label><br>
+
+
+			<label for="cursos">Escoge tu turno</label>
+			<br>
+			<label>
+				<input type="radio" name="turno" >
+				Mañana
+			</label>
+			<br>
+			<label><input type="radio"  name="turno" > Tarde</label><br>
+			<label><input type="radio"  name="turno"> Noche</label><br>
+			<label for="distrito">Selecciona tu distrito</label>
+			<select name="distrito">
+				<option value="" disabled selected>no olvides seleccionar tu distrito:</option>
+				<option value="0">Lince</option>
+				<option value="1">San Isidro</option>
+				<option value="2">Jesùs Marìa</option>
+				<option value="3">Miraflores</option>
+				<option value="4">Lince</option>
+				<option value="5">San Isidro</option>
+				<option value="6">Jesùs Marìa</option>
+				<option value="7">Miraflores</option>
+				<option value="8">Lince</option>
+				<option value="9">San Isidro</option>
+				<option value="10">Jesùs Marìa</option>
+				<option value="11">Miraflores</option>
+			</select><br>
+			<label for="mensaje">Mensaje</label><br>
+			<textarea name="mensaje" cols="60" rows="10"></textarea><br>
+			<label for="">Subir archivo</label>
+			<input type="file">
+
+			<input type="submit" value="Registrarme">
+		</form>	
+	</body>
+</html>
