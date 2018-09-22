@@ -1,0 +1,65 @@
+/** selector de etiqueta o tag **/
+h1{
+	color:red;
+	font-family: arial;
+	text-transform: capitalize;
+}
+
+/** selector de tipo ID **/
+#parrafo1{
+	color: blue;
+	font-family: arial;
+	font-size: 18px;
+}
+.parrafo2{
+	color: orange;
+	font-size: 30px;
+	font-family:arial;
+}
+
+.negrita{
+	font-weight: bold;
+	font-style: italic;
+}
+
+/*#texto1{
+	color:blue;
+	text-decoration: line-through;
+
+}*/
+.detalle1{
+	color: blue!important;
+	font-family: verdana!important;
+	text-decoration: line-through!important;
+}
+
+.detalle{
+	color: orange;
+	font-family: arial;
+	text-decoration: underline;
+}
+
+h1.altas{
+	text-transform: uppercase;
+	text-align: center;
+	background-color: blue;
+	display: inline-block;
+}
+body .noticias h2{
+	color:blue;
+}
+.title-noticas{
+	color: blue;
+}
+.parrafo3{
+	color: orange;
+	text-align: justify;
+}
+
+
+
+/*
+p{
+	color: red;
+}
+*/
