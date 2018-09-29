@@ -86,6 +86,55 @@ color:  #337ab7;
 }
 
 
+.bloque-colaboracion{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.bloque-colaboracion .title{
+	font-size: 30px;
+	margin-bottom: 10px;
+
+}
+
+.bloque-colaboracion .title small{
+	font-size: 23px;
+	color: #777;
+}
+
+.bloque-colaboracion .detail{
+	margin-bottom: 25px;
+	line-height: 1.4;
+}
+
+.bloque-colaboracion .item{
+
+width: 300px;
+display: inline-block;
+vertical-align: top;
+margin:20px;
+}
+
+
+
+
+.bloque-colaboracion .item h3{
+	font-size: 25px;
+	font-weight: bold;
+	color: blue;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.bloque-colaboracion .item p{
+	font-size: 14px;
+	color: #777;
+	line-height: 1.4
+}
+
+
+
+
 
 
 
