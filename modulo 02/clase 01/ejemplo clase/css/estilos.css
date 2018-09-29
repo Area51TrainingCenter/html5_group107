@@ -1,3 +1,7 @@
+*{
+	box-sizing: border-box;
+}
+
 .contenedor{
 	width: 1200px;
 	margin:0 auto;
@@ -109,7 +113,6 @@ color:  #337ab7;
 }
 
 .bloque-colaboracion .item{
-
 width: 300px;
 display: inline-block;
 vertical-align: top;
@@ -133,9 +136,63 @@ margin:20px;
 }
 
 
+.bloque-final .item{
+	width: 300px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+	display: inline-block;
+	vertical-align: top;
+	margin:20px;
+
+}
+.img-cicurlo{
+	border-radius: 50%;
+}
+.bloque-final{
+	background-color: goldenrod;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	
+	text-align: center;
+}
+
+.bloque-final h2{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.bloque-final p{
+	font-size: 14px;
+	line-height: 1.4;
+
+}
+
+.bloque-final .item .btn{
+	text-decoration: none;
+	color: black;
+	background-color: #ccc;
+	padding: 10px 15px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
 
 
+}
+.footer-site{
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.lista-enlaces-footer li{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 13px;
+}
 
-
+.lista-enlaces-footer{margin-bottom: 10px;}
 
 
