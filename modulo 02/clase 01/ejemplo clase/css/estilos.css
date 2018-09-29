@@ -1,0 +1,92 @@
+.contenedor{
+	width: 1200px;
+	margin:0 auto;
+}
+.header-site{
+	background-color: #101010;
+	color: white;
+
+}
+body{
+	font-family: arial;
+}
+.logo-site{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+
+}
+.nav-site{
+	display: inline-block;
+	vertical-align: top;
+}
+.nav-site ul li{
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.activo{
+	background-color: red;
+}
+.formulario{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 7px;
+	margin-left: 680px;
+}
+
+
+.formulario .texto-busqueda{
+	font-size: 13px;
+	padding: 5px;
+}
+.formulario .btn-enviar{
+	font-size: 15px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+
+.bloque-principal{
+	background-color: yellowgreen;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.bloque-principal .title{
+	font-size: 50px;
+	margin-bottom: 15px;
+}
+.bloque-principal .detail{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.bloque-principal .btn-more{
+	background-color: #337ab7;
+	color: white;
+	text-decoration: none;
+	padding: 15px 20px;
+	display: inline-block;
+	border-radius: 10px;
+	/*transition:all 0.2s linear ;*/
+}
+
+
+.bloque-principal .btn-more:hover{
+background-color: white;
+color:  #337ab7;
+
+}
+
+
+
+
+
+

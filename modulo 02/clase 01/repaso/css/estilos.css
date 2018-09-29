@@ -1,0 +1,40 @@
+/*selectores
+etiqueta
+id
+class
+*/
+
+/*
+p{
+	color:red;
+}
+
+h1{
+	color: tomato;
+}
+*/
+
+/*selector de tipo id (se le antepone el #)*/
+/*#parrafo1{
+color: red;
+font-size: 20px;
+font-family: arial;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 3px;
+word-spacing: 10px;
+font-weight: bold;
+}*/
+/*selector de tipo class (se le antepone el .)*/
+.parrafo2{
+color: blue;
+font-weight: bold;
+}
+
+
+h1{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px
+}
