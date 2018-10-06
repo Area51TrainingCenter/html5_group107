@@ -77,16 +77,32 @@ min-height: 360px;
 border-radius: 10px;
 float: left;
 margin-right: 30px;
+transition:all 0.3s linear;
 }
 .item-bloque2 h3{
 	font-size: 15px;
 	margin-top: 25px;
 	margin-bottom: 20px;
+	transition:all 0.3s linear;
 }
 .item-bloque2 p{
 	font-size: 13px;
 	color: gray;
 	line-height: 2;
+}
+
+.item-bloque2:hover{
+	background-color: black;
+	margin-top: -10px;
+	
+}
+.item-bloque2:hover .size-icon{
+	color:white;
+
+}
+.item-bloque2:hover h3{
+	color:white;
+
 }
 /** end estilos bloque 2 **/
 
@@ -117,6 +133,7 @@ margin-right: 30px;
 
 .size-icon{
 	font-size: 50px;
+transition:all 0.3s linear;
 }
 
 .no-m-r{
