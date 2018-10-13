@@ -1,0 +1,69 @@
+body{
+	font-size: 20px;
+	font-family: arial;
+}
+.title{
+	text-align: center;
+	
+	margin-bottom: 30px;
+}
+.contenedor{
+	width: 1024px;
+	margin:0 auto;
+	padding-top: 30px;
+
+	background-color: pink;
+}
+.contenido{
+	width: 800px;
+display: inline-block;
+vertical-align: top;
+background-color: red;
+height: 300px;
+}
+.barra{
+	width: 215px;
+display: inline-block;
+vertical-align: top;
+background-color: blue;
+height: 300px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px){
+.contenedor{
+		background-color: black;
+		width: 100%;
+	}
+	.title{
+		color: white;
+	}
+	.contenido{
+		width: 90%;
+		margin-left: 5%;
+		display: none;
+	}
+	.barra{
+		width: 90% ;
+		margin-left: 5%;
+	}
+}
+@media screen and (min-width:501px) and (max-width: 1024px){
+	.contenedor{
+		background-color: black;
+		width: 100%;
+	}
+	.title{
+		color: white;
+	}
+	.contenido{
+		width: 48%
+	}
+	.barra{
+		width: 48% 
+	}
+} 
+
+
+
+
+

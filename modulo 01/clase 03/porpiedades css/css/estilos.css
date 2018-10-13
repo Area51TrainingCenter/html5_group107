@@ -1,0 +1,16 @@
+body{
+	background-color: black;
+}
+	h1{
+		background-color: blue;
+		color:white;
+	}
+	p{
+		background-color: orange;
+		color: white;
+	}
+	.caja{
+		width: 1000px;
+		height: 400px;
+		background-color: red
+	}

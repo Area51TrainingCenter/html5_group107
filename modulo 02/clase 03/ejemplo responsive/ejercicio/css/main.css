@@ -1,0 +1,68 @@
+body{
+	font-family: 'Roboto', sans-serif;	
+}
+.contenedor{
+	width: 1024px;
+
+	margin:0 auto;
+}
+.section-destacados{
+	
+}
+.title-seccion{
+	font-size: 25px;
+	color: #808080;
+	font-weight: 100;
+	font-family: arial;
+	font-family: 'Roboto Slab', serif;
+	display: inline-block;
+	border-bottom: 1px solid gray;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
+.center-content{
+	text-align: center;
+}
+
+
+.item{
+	width: 220px;
+	display: inline-block;
+	text-align: center;
+	margin-right: 17px;
+	margin-left: 16px;
+	margin-bottom: 20px;
+}
+
+.img-item{
+	width: 100%;
+
+}
+
+.title-item{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	text-align: center;
+}
+.descuento{
+	font-size: 24px;
+ 	color: #bd4f5c;
+ 	margin-right: 10px;
+
+}
+.precio{
+	
+font-size: 18px;
+color: black;
+text-decoration: line-through;
+}
+.agregar-carrito{
+	display: block;
+
+	margin-top: 10px;
+	border:1px solid black;
+	padding: 8px;
+}
