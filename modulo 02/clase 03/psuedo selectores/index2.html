@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1 class="title">Lorem ipsum dolor sit amet, consectetur adipisicing</h1>
+</body>
+</html>
+
+<style type="text/css">
+*{
+	box-sizing: border-box;
+}
+	.title{
+		width: 400px;
+		font-family: arial;
+		font-size: 20px;
+		border-bottom:4px solid red;
+		display: inline-block;
+		position: relative;
+		padding: 20px;
+		border-radius: 20px;
+		background-color: red;
+		color:white;
+
+	}
+/*	.title:before{
+		content:"hola : ";
+		color:red;
+		font-size: 30px;
+		text-decoration: underline;
+		text-transform: uppercase;
+*/
+
+	.title:after{
+		content: "";
+		width: 30px;
+		height: 30px;
+
+		display: inline-block;
+		border:15px solid transparent;
+		box-sizing: border-box;
+		border-top: 15px solid red;
+
+		position: absolute;
+		left: 50%;
+		margin-left: -15px;
+		bottom: -30px;
+	}
+</style>
