@@ -66,3 +66,53 @@ text-decoration: line-through;
 	border:1px solid black;
 	padding: 8px;
 }
+@media screen and (min-width: 701px) and (max-width: 1024px){
+.contenedor{
+	width: 100%;
+	background-color: blue;
+	text-align: center;
+}
+.item{
+	width: 30%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 700px){
+.contenedor{
+	width: 100%;
+	background-color: blue;
+		text-align: center;
+
+}
+.item{
+	width: 47%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px){
+.contenedor{
+	width: 100%;
+	background-color: blue;
+		text-align: center;
+}
+.item{
+	width: 98%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.title-item{
+	font-size: 15px;
+}
+.descuento{
+	display: block;
+	font-size: 22px
+}
+.precio{
+	font-size: 14px;
+}
+}

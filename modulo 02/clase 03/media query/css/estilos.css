@@ -28,7 +28,7 @@ vertical-align: top;
 background-color: blue;
 height: 300px;
 }
-
+/*
 @media screen and (min-width: 0px) and (max-width: 500px){
 .contenedor{
 		background-color: black;
@@ -62,8 +62,26 @@ height: 300px;
 		width: 48% 
 	}
 } 
+*/
 
 
+@media (max-width: 1024px){
+.contenedor{
+		background-color: black;
+		width: 100%;
+	}
+	.title{
+		color: white;
+	}
+
+}
+
+@media (max-width: 500px){
+	.contenedor{
+		background-color: green;
+	}
+
+}
 
 
 
