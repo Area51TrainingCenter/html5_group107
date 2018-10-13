@@ -129,3 +129,62 @@ margin-bottom: 15px;
 	display: block;
 	margin-top: 50px;
 }
+
+@media screen and (min-width: 0px) and (max-width: 1130px){
+.container{
+	width: 100%;
+}
+.news-item{
+	width: 100%;
+}
+.item-new{
+	margin:1%;
+}
+
+
+.lateral-news{
+	width: 100%;
+	
+}
+.box-laterral{
+	width: 100%;
+}
+.lateral-news{
+	text-align: center;
+}
+.lateral-news .item-new{
+	width: 32%
+}
+
+}
+@media screen and (min-width: 501px) and (max-width: 800px){
+	.item-new{
+		width: 30%;
+		margin:1%;
+	}
+	.lateral-news .item-new{
+	width: 48%
+}
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px){
+	.item-new{
+		width: 47%;
+	}
+	.lateral-news .item-new{
+	width: 100%
+}
+.title-lateral-news{
+		font-size: 15px;
+}
+}
+
+@media screen and (min-width: 0px) and (max-width: 350px){
+	.item-new{
+		width: 98%;
+	}
+	.title-lateral-news{
+		font-size: 10px;
+}
+}
+
