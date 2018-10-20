@@ -1,0 +1,44 @@
+.box1{
+	width: 100%;
+	/*max-width: 1200px;*/
+	height: 630px;
+	/*background-color: red;*/
+	background-image: url(../img/fondo2.jpg);
+	background-repeat: no-repeat;
+	/*background-size: 100% 100%*/
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+.box2{
+	width: 100%;
+	/*max-width: 1200px;*/
+	height: 630px;
+	/*background-color: red;*/
+	background-image: url(../img/fondo2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%
+	background-size: cover;
+	background-position: center;
+
+}
+
+.box3{
+	width: 100%;
+	/*max-width: 1200px;*/
+	height: 630px;
+	/*background-color: red;*/
+background-image: url(../img/fondo2.jpg);
+
+
+}
+.box1 h2{
+	color: white;
+	font-family: arial;
+	font-size: 30px;
+	padding-left: 50px;
+	padding-top: 50px;
+	text-shadow: 1px 1px 1px black;
+}
+

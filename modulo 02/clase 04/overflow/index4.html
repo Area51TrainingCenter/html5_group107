@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<div class="contenedor">
+	<div class="box">
+		<img src="foto.png">
+	</div>
+	<div class="box">
+		<img src="https://via.placeholder.com/280x280">
+	</div>
+	<div class="box">
+		<img src="https://via.placeholder.com/280x280">
+	</div>
+</div>
+</body>
+</html>
+<style type="text/css">
+	.contenedor{
+		width: 900px;
+		margin:50px auto;
+	}
+	.box{
+		width: 280px;
+		height: 280px;
+		margin:8px;
+		display: inline-block;
+		vertical-align: top;
+		overflow: hidden;
+		background-image: url("duda.png")
+	}
+	.box img{
+		width: 280px;
+		height: 280px;
+		transition:all 0.3s linear;
+		opacity: 0
+	}
+	.box:hover img{
+		/*width: 350px;
+		height: 350px;*/
+		opacity: 1;
+		transform: scale(1.5) rotate(5deg)
+	}
+</style>

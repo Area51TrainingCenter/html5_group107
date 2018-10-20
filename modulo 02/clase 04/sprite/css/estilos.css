@@ -1,0 +1,36 @@
+.iconos{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background-image: url(../img/iconos.png);
+	/*background-position: -108px 0px;*/
+	transition:all 1s linear;
+}	
+.ico-t{
+	background-position: 0px 0px;
+}
+.ico-t:hover{
+	background-position: 0px -60px;
+}
+.ico-f{
+	 background-position: -54px 0px;
+}
+.ico-f:hover{
+	 background-position: -54px -60px;
+}
+.ico-g{
+	background-position: -113px 0px;
+}
+.ico-g:hover{
+	background-position: -113px -60px;
+}
+
+/*
+
+@media (max-width: 600px){
+	.iconos{
+			background-image: url(../img/iconosresponsive.png);
+			width: 20px;
+			height: 20px;
+	}
+}*/
