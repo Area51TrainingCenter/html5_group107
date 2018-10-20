@@ -1,0 +1,130 @@
+.contenedor{
+	width: 100%;
+	max-width: 500px;
+	background-color: skyblue;
+	height: 400px;
+	margin:0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.box{
+	/*flex-grow: 1;*/
+}
+.box1{
+	width: 250px;
+	height: 120px;
+	background-color: red;
+	color: white;
+}
+.box2{
+	width: 250px;
+	height: 120px;
+	background-color: green;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.box3{
+	width: 250px;
+	height: 120px;
+	background-color: tomato;
+	color: white ;
+}
+
+
+/** ejemplo **/
+
+.caja{
+
+	margin:0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+.dado{
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+	display: flex;
+	padding: 10px;
+	margin:10px;
+}
+.dado-1{
+	justify-content: center;
+	align-items: center;
+}
+.punto{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border-radius: 50%;
+}
+.dado-2{
+	justify-content: space-around;
+}
+
+.dado-2 .punto:nth-child(2){
+	align-self: flex-end;
+
+}
+
+
+.dado-3{
+	justify-content: space-around;
+}
+
+.dado-3 .punto:nth-child(2){
+	align-self: center;
+}
+.dado-3 .punto:nth-child(3){
+	align-self: flex-end;
+}
+.dado-4{
+	justify-content: space-between;
+}
+.dado-4 .columna{
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
+
+.dado-5{
+	justify-content: space-between;
+}
+.dado-5 .columna{
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.punto-medio{
+	align-self: center;
+}
+
+
+.dado-6{
+	justify-content: space-between;
+}
+.dado-6 .columna{
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
+
+
+
+

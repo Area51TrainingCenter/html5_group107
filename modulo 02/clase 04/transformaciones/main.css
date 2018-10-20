@@ -1,0 +1,76 @@
+.box1{
+	width: 208px;
+	height: 186px;
+	background-color: red;
+	transform:rotate(10deg); 
+	display: inline-block;
+	vertical-align: top;
+}
+
+.box2{
+	width: 208px;
+	height: 186px;
+	background-color: red;
+	transform:rotate(-10deg); 
+	display: inline-block;
+	vertical-align: top;
+}
+.box3:hover{
+transform: rotateX(360deg);
+}
+.box3{
+	width: 208px;
+	height: 186px;
+	transition:all 1s linear;
+}
+
+.box4{
+	width: 208px;
+	height: 186px;
+	transition:all 1s linear;
+}
+.box4:hover{
+	transform: rotateY(360deg);
+}
+
+.foto{
+	width: 208px;
+	margin:300px;
+	transition:all 1s linear;
+}
+.foto:hover{
+	transform: scale(1.5)	rotate(-90deg)	
+}
+.caja-traslado:hover{
+	transform: translate(100px,80px);
+}
+.caja-traslado{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+		transition:all 0.2s linear;
+
+}
+
+
+.box-skew{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+			transition:all 0.2s linear;
+}
+/*
+.box-skew:hover{
+	transform: skew(180deg);
+}
+*/
+
+.fondo1{
+	width: 200px;
+	height: 40px;
+	background-color: green;
+	transform:skew(-30deg);
+	display: inline-block;
+	vertical-align: top;
+	margin:10px;
+}

@@ -1,0 +1,199 @@
+.contenedor{
+	width: 100%;
+	max-width: 500px;
+	background-color: skyblue;
+	height: 400px;
+	margin:0 auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+.box{
+	/*flex-grow: 1;*/
+}
+.box1{
+	width: 250px;
+	height: 120px;
+	background-color: red;
+	color: white;
+}
+.box2{
+	width: 250px;
+	height: 120px;
+	background-color: green;
+	color: white;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.box3{
+	width: 250px;
+	height: 120px;
+	background-color: tomato;
+	color: white ;
+}
+
+
+/** ejemplo **/
+
+.caja{
+
+	margin:0 auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+
+.dado{
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 10px;
+	margin:10px;
+}
+.dado-1{
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.punto{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border-radius: 50%;
+}
+.dado-2{
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+}
+
+.dado-2 .punto:nth-child(2){
+	-ms-flex-item-align: end;
+	align-self: flex-end;
+
+}
+
+
+.dado-3{
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+}
+
+.dado-3 .punto:nth-child(2){
+	-ms-flex-item-align: center;
+	align-self: center;
+}
+.dado-3 .punto:nth-child(3){
+	-ms-flex-item-align: end;
+	align-self: flex-end;
+}
+.dado-4{
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+.dado-4 .columna{
+	
+	display: -webkit-box;
+	
+	display: -ms-flexbox;
+	
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+
+
+.dado-5{
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+.dado-5 .columna{
+	
+	display: -webkit-box;
+	
+	display: -ms-flexbox;
+	
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.punto-medio{
+	-ms-flex-item-align: center;
+	align-self: center;
+}
+
+
+.dado-6{
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+.dado-6 .columna{
+	
+	display: -webkit-box;
+	
+	display: -ms-flexbox;
+	
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+
+
+
+
+
