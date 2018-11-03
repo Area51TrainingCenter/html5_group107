@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	
+	<style>
+		body
+		{
+			font-family: arial;
+		}
+		.item{
+			width: 300px;
+			margin:20px auto;
+		}
+		.ocultar{
+			display: none;
+		}
+		.ver{
+			display: block;
+		}
+		span{
+			cursor:pointer;
+		}
+	</style>
+</head>
+<body>
+	<article class="item">
+	<h1>Manejando el Doom con JS</h1>
+	<img src="https://via.placeholder.com/300X360" alt="">
+	<!--<a id="leer-mas" href="" class="" > 
+		Leer más
+	</a>-->
+	<span id="leer-mas">
+		Leer más
+	</span>
+	<span id="leer-menos" class="ocultar">Leer menos</span>
+
+	<p id="parrafo" class="ocultar">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque consequuntur reiciendis, alias perferendis nemo, molestias fugiat incidunt consectetur! Vitae illo molestiae harum deserunt, nobis nemo quo molestias! Reprehenderit, optio voluptatibus!</p>
+	</article>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
