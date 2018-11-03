@@ -16,6 +16,9 @@ function ver_contenido(){
 
 btn_leer_menos.addEventListener("click",menos_contenido)
 function menos_contenido(){
+	btn_leer_menos.classList.add("ocultar");
+	parrafo.classList.add("ocultar");
+	btn_leer_mas.classList.remove("ocultar")
 
 
 }

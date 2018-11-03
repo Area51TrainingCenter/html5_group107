@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.foto{
+			width: 250px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Cambiando img</h1>
+		
+	<a href="http://www.google.com" ><img id="foto-principal" class="foto" src="http://1.bp.blogspot.com/-PvJojyeiyf0/VXDXqRSNF7I/AAAAAAAAACw/RvL70i0cBJc/s1600/Gamer.png" alt=""></a>
+</body>
+</html>
+
+<script>
+	var img=document.getElementById('foto-principal');
+	img.addEventListener("mouseenter",cambiarImg)
+	function cambiarImg(){
+
+		img.src="https://yt3.ggpht.com/a-/AN66SAxLls1JqVtMLWVhbaCA_aIStscHZLRrdgPo-g=s900-mo-c-c0xffffffff-rj-k-no"
+	}
+
+	img.addEventListener("mouseleave",regresarImg)
+	function regresarImg(){
+		img.src="http://1.bp.blogspot.com/-PvJojyeiyf0/VXDXqRSNF7I/AAAAAAAAACw/RvL70i0cBJc/s1600/Gamer.png";
+	}
+</script>
+
+
+
+
+
+
+
+
+
+
+
