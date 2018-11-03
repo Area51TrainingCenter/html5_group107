@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		span{
+			display: block;
+			font-weight: bold;
+			color:red;
+		}
+	</style>
+</head>
+<body>
+	<h1>Usando Formularios con JS</h1>
+
+	<form action="registro.html">
+		<div>
+			<span id="alerta-nombre"></span>
+			<input id="inp-nombre" type="text" placeholder="Nombres">
+		</div>
+	
+		<div>
+			<span id="alerta-apellido"></span>
+			<input id="inp-apellidos" type="text" placeholder="Apellidos">
+		</div>
+		<!--<input id="enviar" type="submit" value="Enviar">-->
+		<button id="enviar" type="button">Obtener Datos</button>
+	</form>
+	<h2>Bienvenido: <span id="mensaje"></span></h2>
+	<script src="js/main.js"></script>
+</body>
+</html>
