@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div class="container">
+	<header>
+
+		<nav class="nav-site">
+			<span class="ico-menu">Menu</span>
+			<ul>
+				<li>Inicio</li>
+				<li>Servicios</li>
+				<li>Nosotros</li>
+				<li>Contacto</li>
+				<li>Clientes</li>
+				<li>Blog</li>
+			
+			</ul>
+		</nav>
+	</header>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, cumque! Consequatur deleniti rem et quaerat sit fugiat molestias quod nesciunt ex, numquam, provident ea hic corrupti laborum aliquam expedita libero!</p>
+	
+	
+
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>
+
+<style>
+*{
+	margin:0;
+	padding: 0;
+}
+.container{
+	width: 1024px;
+	margin:0 auto;
+}
+	.nav-site{
+		background-color: black;
+
+	}
+.ico-menu{
+	padding: 15px;
+	color: white;
+	font-family: arial;
+	display: inline-block;
+	display: none;
+}
+	.nav-site li{
+		display: inline-block;
+		vertical-align: top;
+		color:white;
+		padding: 15px;
+		font-family: arial;
+		font-size: 17px;
+	}
+
+@media (max-width: 1024px){
+	.container{
+	width: 100%;}
+}
+
+
+@media (max-width: 700px){
+	/*.nav-site ul{
+		display: none;
+		
+	}*/
+	.nav-site ul{
+	background-color: red;
+	position: absolute;
+	top:45px;
+	left:-400px;	
+	width: 100%;
+	transition: all 0.2s linear;
+	}
+	/*
+	.nav-site ul{
+		display: none;
+		position: absolute;
+		top: 35px;
+		left: 0px;
+		width: 100%;
+		background-color: black;
+	}*/
+	.nav-site ul li{
+		display: block;
+	}
+	.ico-menu{
+		display: block;
+		cursor:pointer;
+	}
+	.ver-menu{
+		left: 0px!important;
+	}
+}
+
+
+</style>
+
+<script>
+	
+	$(".ico-menu").click(function(){
+		//$(".nav-site ul").show();
+		//$(".nav-site ul").slideToggle();
+		//$(".nav-site ul").addClass("ver-menu");
+		$(".nav-site ul").toggleClass("ver-menu");
+	})
+</script>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- Place somewhere in the <head> of your document -->
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<!--
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+-->
+	<script src="js/jquery.flexslider.js"></script>
+
+	
+	<!-- Place in the <head>, after the three links -->
+	<script type="text/javascript" charset="utf-8">
+	  $(window).load(function() {
+	    $('.flexslider').flexslider({
+	    	animation:"slide",
+	    	direction:"vertical",
+	    	randomize:true
+	    });
+	  });
+	</script>
+
+
+
+
+
+
+<style>
+	.container{
+		width: 800px;
+		margin:0 auto;
+	}
+	@media (max-width: 800px){
+		.container{
+			width: 100%;
+		}
+	}
+</style>
+
+
+
+
+
+
+</head>
+<body>
+
+	<div class="container">
+		<section id="slider">
+				<!-- Place somewhere in the <body> of your page -->
+				<div class="flexslider">
+				  <ul class="slides">
+				    <li>
+				      <img src="img/foto1.jpg" />
+				    </li>
+				    <li>
+				      <img src="img/foto2.jpg" />
+				    </li>
+				    <li>
+				      <img src="img/foto3.jpg" />
+				    </li>
+				  </ul>
+				</div>
+		</section>	
+	</div>
+	
+	
+</body>
+</html>
