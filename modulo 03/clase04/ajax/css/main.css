@@ -1,0 +1,23 @@
+.thumb{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+#listado-sitios{
+	height: 500px;
+
+	overflow: scroll;
+}
+.nombre-sitio{
+	font-size: 19px;
+}
+.contenido{
+	width: 1024px;
+	margin:0 auto;
+}
+
+
+#detalle-foto{
+	width: 100%;
+
+}
