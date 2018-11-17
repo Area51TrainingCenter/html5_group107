@@ -3,13 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Repaso Js</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 	<!-- agreandole bootstra a mi poryecto -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
-
+	
 
 </head>
 <body>
@@ -29,35 +30,39 @@
 			<div class="col-md-6">
 				<h2>Ingresare Datos</h2>
 				<div>
-					<form action="" class="p-4">
+					<form action="http://www.google.com" class="p-4">
 						
 						<div class="form-group">
 							<label>Nombres</label>
-							<input type="text" class="form-control">
+							<input type="text" class="form-control" id="inp-nombre">
 						</div>
 						<div class="form-group">
 							<label>Correo</label>
-							<input type="text" class="form-control">
+							<input type="text" class="form-control" id="inp-correo">
 						</div>
 						<div class="form-group">
 							<label>Faceook</label>
-							<input type="text" class="form-control">
+							<input type="text" class="form-control" id="inp-facebook">
 						</div>
-						<button class="btn btn-info float-left">Limpiar Datos</button>
-						<button class="btn btn-success float-right">Grabar</button>
+						<button type="button" class="btn btn-info float-left">Limpiar Datos</button>
+						<button id="registrar" type="button" class="btn btn-success float-right">Grabar</button>
 						<div class="clearfix"></div>
 
 					</form>
 				</div>
 			</div>
 			<div class="col-md-6">
-				<h3>Listar Datos</h3>
-				<ul></ul>
+				<h3 >Listar Datos</h3>
+				<div class="row" id="listado"></div>
+					
+			
 			</div>
 		</div>
 
 	</div>
 
+
+	<script src="js/main.js"></script>
 	
 </body>
 </html>
